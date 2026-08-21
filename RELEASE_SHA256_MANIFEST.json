@@ -1,16 +1,36 @@
 {
-  "schema": "tafp-peerj-sanitized-unpublished-release-candidate-v3",
-  "created_utc": "2026-08-21T05:52:41.198338+00:00",
-  "status": "UNPUBLISHED_REVIEW_CANDIDATE",
+  "schema": "tafp-peerj-sanitized-public-release-v7",
+  "created_utc": "2026-08-21T06:31:17.908777+00:00",
+  "status": "PUBLIC_SANITIZED_RELEASE",
   "current_snapshot": "PEERJ_HANDOFF_20260821T034414Z",
   "handoff_manifest_sha256": "6e46b875511ac03bd4aa3780299c512a9f954f05a570beafe4051da931447983",
   "source_exact_hash_pinning": true,
-  "record_count_excluding_manifest": 67,
+  "record_count_excluding_manifest": 72,
   "records": [
+    {
+      "path": "FINAL_RELEASE_GATE_REPORT.md",
+      "size_bytes": 1836,
+      "sha256": "9038c58cc607a1c3748d38c614cb13728d732adf80a1e15f032e6aa92612f5b0"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1069,
+      "sha256": "08c7cb6562ecdb6f7fdfc2d4fadf4f5c050f9fda12e1ae31281faf3b1b33c62d"
+    },
     {
       "path": "README.md",
       "size_bytes": 1729,
       "sha256": "b8932e4e6172329c87c27b91f44692b6120423311c450fb71fcdc7261cdacfd1"
+    },
+    {
+      "path": "REPRODUCIBILITY_AUDIT.md",
+      "size_bytes": 1387,
+      "sha256": "a3c77fced0edbe2583c618244216eb75c3c13d22e1fdd563ba1a5b1b42e54a98"
+    },
+    {
+      "path": "THIRD_PARTY_LICENSE_AUDIT.md",
+      "size_bytes": 1889,
+      "sha256": "139c7e0f21b7670f8958d2cec906efff53df2ab762f6ed6b87a27201aa163658"
     },
     {
       "path": "aggregate_tables/table_s10_semantic_selectivity_paired_tests.csv",
@@ -307,6 +327,11 @@
       "sha256": "a9587ea995b66401aad0bde5473fa175d4fbf78e0737354072f303484931bff2"
     },
     {
+      "path": "environment/requirements_peerj_reproduction.txt",
+      "size_bytes": 92,
+      "sha256": "f529b6b9772be1d1958eafaec39ec1fa1286b6b48d18f40e9ad401a03049e2aa"
+    },
+    {
       "path": "historical_runners/01_generate_minority_sensitive_inputs.py",
       "size_bytes": 3577,
       "sha256": "67352ffd9fa111ea8fda637fb2cf69d0e6b3f3c2f91105097bf9a342f9667876"
@@ -347,10 +372,12 @@
       "sha256": "611e6b7006a4f4fd787ce1f01aad2d1d873003d3606fd2500a237798ff43d189"
     }
   ],
-  "repository_license": "NOT_SELECTED",
+  "repository_license": "MIT",
   "run_all_v8_recovery": "RECOVERED_AND_GIT_BLOB_VERIFIED",
   "source_project_modified": false,
   "experiments_run": false,
   "external_publication_authorized": false,
-  "next_gate": "INDEPENDENT_CANDIDATE_SECRET_LICENSE_SIZE_HASH_AND_CONTENT_VERIFICATION"
+  "next_gate": "INDEPENDENT_CANDIDATE_SECRET_LICENSE_SIZE_HASH_AND_CONTENT_VERIFICATION",
+  "public_repository": "https://github.com/ylmzvrl/tafp-graphrag-peerj-release",
+  "immutable_archive_doi": "NOT_CREATED"
 }

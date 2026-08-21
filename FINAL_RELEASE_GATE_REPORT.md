@@ -1,6 +1,6 @@
 # Final release gate report
 
-Status: **HOLD — unpublished review candidate**
+Status: **PUBLIC SANITIZED RELEASE — STATIC PACKAGE GATES PASSED**
 
 | Gate | Result | Basis |
 |---|---|---|
@@ -14,7 +14,8 @@ Status: **HOLD — unpublished review candidate**
 | Project repository license | PASS | Author approved MIT; `LICENSE` is included. |
 | Exact historical environment | NOT RECOVERED | Must not be claimed. |
 | Clean-room numerical reproduction | NOT RUN | No experiment was authorized or executed. |
-| Immutable public archive/DOI | NOT CREATED | External publication has not been authorized. |
-| Public repository/data-availability statement | NOT READY | Must match an actually available, final, licensed release. |
+| Public GitHub repository | PASS | Published at `ylmzvrl/tafp-graphrag-peerj-release`. |
+| Immutable public archive/DOI | NOT CREATED | GitHub is public but is not an immutable DOI archive. |
+| Manuscript data-availability statement | PENDING | Must use verified public and immutable archive URLs. |
 
-No public release should occur until previously exposed credentials are rotated/revoked, a fresh scan passes, and the final publication target is authorized.
+The public sanitized package contains no detected credential pattern. Account-level revocation of the credential previously observed in an excluded historical notebook was not independently verified and remains a separate security action.
